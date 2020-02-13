@@ -1,38 +1,162 @@
-.App {
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.header-color {
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: linear-gradient(
+    to top,
+    #080808,
+    #21262f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar-img {
+  height: 250px;
+  padding-top: 65px;
+  border-radius: 1200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: rgb(218, 208, 159);
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  text-decoration: none;
+}
+.fa-facebook {
+  padding: 10px 20px;
+  transition: 1s;
+  background-color: rgb(218, 208, 159);
+  color: rgb(153, 122, 144);
+}
+.fa-facebook:hover {
+  transition: 1s;
+
+  background-color: rgb(153, 122, 144);
+  color: rgb(218, 208, 159);
+  padding: 10px 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-linkedin {
+  padding: 10px 20px;
+  transition: 1s;
+  background-color: rgb(153, 122, 144);
+  color: rgb(218, 208, 159);
+}
+.fa-linkedin:hover {
+  transition: 1.5s;
+
+  background-color: rgb(218, 208, 159);
+  color: rgb(153, 122, 144);
+  padding: 10px 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-github {
+  padding: 10px 14px;
+  transition: 1s;
+  background-color: rgb(218, 208, 159);
+  color: rgb(153, 122, 144);
+}
+.fa-github:hover {
+  transition: 1.75s;
+
+  background-color: rgb(153, 122, 144);
+  color: rgb(218, 208, 159);
+  padding: 10px 40px;
+}
+
+.navbar-header-hrz {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: rgb(0, 0, 0) !important;
+}
+
+.header-color-vrt {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(15, 15, 12) !important;
+}
+
+.navbar-header-vrt {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: rgb(15, 15, 12) !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.header-color {
+  color: rgb(15, 15, 12) !important;
+  font-family: "Great Vibes", cursive !important;
+}
+
+.navbar-header-vrt:hover {
+  background-color: rgb(15, 15, 12) !important;
+  color: rgb(153, 122, 144) !important;
+}
+
+.titleContainer {
+  position: relative;
+
+  --maskX: 0;
+  --maskY: 50;
+}
+.titleContainer h1 {
+  font-family: "Great Vibes", cursive !important;
+
+  font-size: 45px;
+  margin: 0;
+}
+
+.titleContainer hr {
+  border-top: 1px dashed rgb(67, 48, 97);
+  width: 20%;
+  margin-left: 40%;
+}
+
+.titleWrapper {
+  color: #f2dcca;
+  cursor: pointer;
+}
+
+.cloneWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgb(153, 115, 142);
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  clip-path: polygon(
+    0 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * 0.4%) 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * -0.4%) 100%,
+    0 100%
+  );
 }
