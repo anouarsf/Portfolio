@@ -15,18 +15,15 @@
     #080808,
     #21262f
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 65px;
-  border-radius: 1200px;
+  height: 550px;
+  margin-top: 65px;
 }
 
 a {
@@ -123,6 +120,7 @@ ul.social-icons {
 
 .titleContainer {
   position: relative;
+  /* margin: 300px ; */
 
   --maskX: 0;
   --maskY: 50;
@@ -160,3 +158,110 @@ ul.social-icons {
     0 100%
   );
 }
+/* -------------Resume------------- */
+
+:root{
+  --mainBlue: #032b53;
+  --lightBlue: #007bff;
+  --mainWhite: #f3f3f3;
+  --mainVsBlue: rgb(16, 106, 180);
+  --mainYellow: #ffc107;
+  --Yellow: #aa9107;
+
+  --mainOrange: #fd7e14;
+  --mainRed: #d60a0a;
+  --redLight: #ff1717;
+  --lightGreen: #18c03f;
+  --vscGrey: #5d6b6b;
+  --darkVscode: #13191f;
+  --mainPurple: #fa00a7;
+}
+
+.resume-right-col {
+  border-left: 0.5px solid #424446;
+  border-right: 0.5px solid #424446;
+  font-family: "Roboto Mono", monospace !important;
+}
+
+.vscode-mainDark{
+  color : var(--mainVsBlue);
+}
+
+.vscode-lightGreen{
+  color : var(--lightGreen) ;
+}
+
+.vscode-vscGrey{
+  color : var(--vscGrey) ;
+  line-height: 0.5;
+}
+
+.vscode-Yellow{
+  color : var(--Yellow);
+}
+
+.vscode-mainRed{
+  color : var(--mainRed);
+}
+
+.vscode-redLight{
+  color : var(--redLight);
+}
+
+.vscode-mainPurple{
+  color : var(--mainPurple);
+}
+
+.vscode-lightGreen{
+color : var(--lightGreen);
+}
+
+.vscode-mainYellow{
+  color : var(--mainYellow);
+}
+/* .p {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: var(--lightBlue) !important;
+} */
+
+/* .pp {
+  color: var(--mainOrange);
+  margin-left: 15px;
+  margin-right: 15px;
+} */
+
+/* .ppp {
+  color: var(--mainRose);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pppp {
+  color: var(--lightGreen);
+  margin-left: 15px;
+  margin-right: 15px;
+} */
+.number-resume {
+  margin-top: 0px;
+  margin-left: 60px;
+  font-family: "Roboto Mono", monospace !important;
+  color: white !important;
+}
+
+.number-resume li {
+  color: var(--mainBlue) !important;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.resume {
+  background-color: var(--darkVscode) !important;
+  color: var(--mainYellow);
+}
+
+.educat {
+  color: var(--mainPurple);
+  background-color: var(--vscGreen);
+}
+

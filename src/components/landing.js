@@ -32,9 +32,13 @@ _onMouseMove = (e) => {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className='landing-grid'>
-          <Cell col={12}>
+        <Cell col={8}>
+
             <img src={logo} alt='avatar' className='avatar-img' />
-          
+            </Cell>
+
+            <Cell col={4}>
+
             <div className="titleContainer"
                 onMouseMove={this._onMouseMove}
                 ref="titleContainer"
@@ -48,32 +52,6 @@ _onMouseMove = (e) => {
                     <h1>Developper full stuck Js</h1>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              {/* <div className="titleContainer"
-                onMouseMove={this._onMouseMove}
-                ref="titleContainer"
-                style={maskStyle}
-              >
-                Full Stack Web Developer
-              </div> */}
-              {/* <hr />
-              <p> React Js | Redux | Javascript </p>
-              <hr /> */}
               <div class='footer-social-icons'>
                 <ul class='social-icons'>
                   <li>
