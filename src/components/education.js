@@ -4,19 +4,65 @@ import { Grid, Cell } from "react-mdl";
 class Education extends Component {
   render() {
     return (
-      <Grid className='resume'>
-        <Cell className='number-all' col={8}>
-          <p className='educat'>........{this.props.nameOfDiploma}</p>
-        </Cell>
+      <section id='timeline'>
+       
+       
+        <div className='tl-item'>
+          <div className='tl-bg' >
+          </div>
 
-        <Cell className='number-all' col={4}>
-          <p>
-            {" "}
-            {this.props.startYear}/{this.props.startMonth} -{" "}
-            {this.props.endYear}/{this.props.endMonth}
-          </p>
-        </Cell>
-      </Grid>
+          <div className='tl-year'>
+            <p className='f2-heading'>Education</p>
+          </div>
+
+
+        </div>
+
+        <div className='tl-item'>
+          <div className='tl-bg'>
+
+          </div>
+
+          <div className='tl-year'>
+            <p className='f2-heading'>2010</p>
+          </div>
+
+          <div className='tl-content'>
+            <h6> Licence fondamentale en Gestion </h6>
+            <p>Ecole superieur de commerce</p>
+          </div>
+        </div>
+
+        <div className='tl-item'>
+          <div className='tl-bg'>
+
+          </div>
+
+          <div className='tl-year'>
+            <p className='f2-heading'>2013</p>
+          </div>
+
+          <div className='tl-content'>
+            <h6> Master recheche en Management</h6>
+            <p>Ecole superieur de commerce</p>
+          </div>
+        </div>
+
+        <div className='tl-item'>
+          <div className='tl-bg'>
+
+          </div>
+
+          <div className='tl-year'>
+            <p className='f2-heading'>2020</p>
+          </div>
+
+          <div className='tl-content'>
+            <h6> Developpeur Fullstack</h6>
+            <p>Go My Code</p>
+          </div>
+        </div>
+      </section>
     );
   }
 }

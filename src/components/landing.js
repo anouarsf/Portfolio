@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import logo from "./logo.png";
 
+
 class Landing extends Component {
  constructor(){
  super()
@@ -32,13 +33,18 @@ _onMouseMove = (e) => {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className='landing-grid'>
-        <Cell col={8}>
+        <Cell col={4}>
 
             <img src={logo} alt='avatar' className='avatar-img' />
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={8}>
+              <div className="name">
+              <h3 > Sfayhi <a style={{  color: 'rgb(113, 9, 173)'
 
+}}>Anouar</a></h3>
+
+              </div>
             <div className="titleContainer"
                 onMouseMove={this._onMouseMove}
                 ref="titleContainer"
@@ -52,6 +58,7 @@ _onMouseMove = (e) => {
                     <h1>Developper full stuck Js</h1>
                 </div>
             </div>
+      
               <div class='footer-social-icons'>
                 <ul class='social-icons'>
                   <li>

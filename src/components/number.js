@@ -4,17 +4,17 @@ class Number extends Component {
   constructor() {
     super();
     this.state = {
-      number: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+      number: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     };
   }
 
   render() {
     return (
-      <div>
+      <div className='number-resume'>
         {this.state.number.map(el => (
-          <ul className='number-resume'>
+          <ul >
             <li>
-              <p> {el} </p>{" "}
+              <p>{el}</p>{" "}
             </li>{" "}
           </ul>
         ))}
