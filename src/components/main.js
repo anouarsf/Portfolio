@@ -4,7 +4,7 @@ import Landing from './landing';
 import Contact from './contact';
 import Aboutme from './aboutme';
 import Projects from './projects';
-import Resume from './resume';
+import Resume from './Resume/resume';
 
 const Main = () => (
 

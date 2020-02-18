@@ -92,13 +92,11 @@ ul.social-icons {
 .fa-linkedin {
   padding: 10px 20px;
   transition: 1s;
-  /* background-color: rgb(153, 122, 144); */
   background-color: rgb(90, 6, 139);
   color: rgb(218, 208, 159);
 }
 .fa-linkedin:hover {
   transition: 1.5s;
-
   background-color: rgb(218, 208, 159);
   color: rgb(153, 122, 144);
   padding: 10px 40px;
@@ -249,13 +247,15 @@ transition: width 0.5s ease;
 
 .tl-item:before{
   opacity: 0;
-  background: rgba(68, 67, 65, 0.417);
+  background: rgba(131,173,181,0.3)
+  ;
   border-radius: 10px;
 
   z-index: 1;
 transform: translate3d(0,0,0)translateY(50%);
 transition: opacity 0.5s ease,
 transform 0.5s ease;
+
 }
 
 .tl-item:hover{
@@ -290,15 +290,21 @@ transform 0.5s ease;
   opacity: 0;
 }
 .tl-content h6{
-  text-transform: uppercase;
+  font-family: 'Monoton', cursive
+ !important;
+ margin-top: -40px;
+ margin-bottom: 10px;
+
   color:  #3aa2b7;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .tl-content p{
   color:  #907b79;
-
-
+  text-shadow: 0 0 10px rgb(46, 37, 37);
+  font-family: "Fredericka the Great", cursive !important;
+  margin-top: 2px;
+line-height: 1.8;
 }
 .tl-year{
   position: absolute;
@@ -306,15 +312,17 @@ transform 0.5s ease;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
-  /* border-top: 1px solid rgb(236, 171, 171);
-  border-bottom: 1px solid rgb(236, 171, 171); */
+
 }
 .tl-year p{
 color: rgba(75, 50, 3, 0.5);
 }
 
 .f2-heading{
-color: rgb(233, 116, 6) ! important;
+  color: rgb(233, 116, 6)
+  ! important;
+  font-family: "Montserrat Subrayada", sans-serif;
+
 }
 
 .tl-bg{
@@ -332,14 +340,18 @@ color: rgb(233, 116, 6) ! important;
 
 
 .citation-education{
-  background-color: #770301;
-  color: #c5aea4;
+  background-color: rgb(211,211,211);
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(29, 2, 2);
+  font-size: 17px;
   text-align: center;
 margin-top: 20px;
   height: 80px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 1px;
 }
+
+
 
 .education{
   margin-top: 150px !important;
@@ -368,7 +380,7 @@ position: relative;
 position: absolute;
 left: -130px;
 top:4px;
-
+font-family: "Montserrat Subrayada", sans-serif;
 color: rgb(233, 116, 6);
 }
 
@@ -393,14 +405,21 @@ padding-bottom:40px ;
 
 .namejob-experience{
 color:  #3aa2b7;
+font-family: 'Monoton', cursive;
+font-size: 15px;
+
+
 }
 
 .namebrand-experience{
   color: #f3771e;
+  font-family: "Fredericka the Great", cursive !important;
+
 
 }
 .description-experience{
   color:  #907b79;
+  font-family: 'Righteous', cursive;
 
 }
 

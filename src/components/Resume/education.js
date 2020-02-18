@@ -1,27 +1,19 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
 
 class Education extends Component {
   render() {
     return (
       <section id='timeline'>
-       
-       
         <div className='tl-item'>
-          <div className='tl-bg' >
-          </div>
+          <div className='tl-bg'></div>
 
           <div className='tl-year'>
             <p className='f2-heading'>Education</p>
           </div>
-
-
         </div>
 
         <div className='tl-item'>
-          <div className='tl-bg'>
-
-          </div>
+          <div className='tl-bg'></div>
 
           <div className='tl-year'>
             <p className='f2-heading'>2010</p>
@@ -34,9 +26,7 @@ class Education extends Component {
         </div>
 
         <div className='tl-item'>
-          <div className='tl-bg'>
-
-          </div>
+          <div className='tl-bg'></div>
 
           <div className='tl-year'>
             <p className='f2-heading'>2013</p>
@@ -49,9 +39,7 @@ class Education extends Component {
         </div>
 
         <div className='tl-item'>
-          <div className='tl-bg'>
-
-          </div>
+          <div className='tl-bg'></div>
 
           <div className='tl-year'>
             <p className='f2-heading'>2020</p>
