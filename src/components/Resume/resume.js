@@ -59,7 +59,7 @@ class Resume extends Component {
           <Experience
             jobName='Gestionnaire de paie'
             nameBrand='ADP'
-            startMonth={9}
+            startMonth={12}
             startYear={2018}
             endMonth={11}
             endYear={2019}
@@ -71,11 +71,11 @@ class Resume extends Component {
           />
 
           <Experience
-            jobName='Co-Fondateur et responsable Marketing'
-            nameBrand='Web commerce'
-            startMonth={7}
+            jobName='Co-fondateur et  Responsable  Marketing'
+            nameBrand='Web Commerce'
+            startMonth={8}
             startYear={2014}
-            endMonth={6}
+            endMonth={11}
             endYear={2018}
             descriptionJob=' Gestion et animation du site web (suivi, mise à jour) : http://lartisanet.com/fr/  '
             descriptionJob1='• Gestion et animation des campagnes ads (Google, facebook…)'
@@ -84,11 +84,11 @@ class Resume extends Component {
           />
 
           <Experience
-            jobName='Commercial'
+            jobName='Conseiller Marketing Web '
             nameBrand='Point Dev'
-            startMonth={4}
+            startMonth={5}
             startYear={2013}
-            endMonth={2}
+            endMonth={7}
             endYear={2014}
             descriptionJob='• Conseiller les clients en leur proposant des solutions web adaptées à leurs besoins.'
             descriptionJob1='• Développer et maintenir une relation de partenariat et de confiance avec les clients.  '
