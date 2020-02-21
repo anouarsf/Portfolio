@@ -610,48 +610,68 @@ ul.social-icons {
   background-color: rgba(255, 255, 255, 0.1);
   opacity: 0.5;
   font-family: "Fredericka the Great", cursive !important;
-  padding: 55px !important;
+  padding: 15px 15px !important;
   border-radius: 60px;
 }
 
 .skills-front {
-  margin-left: 60px !important;
-  margin-top: 20px !important;
+  margin-left: -420px !important;
+  margin-top: 140px !important;
   text-align: center;
 }
 
 .logo-skills-front {
-  margin-left: 29px !important;
+  margin-left: 49px !important;
 }
 
 .logo-skills-front ~ p {
-  opacity: 0.2;
-  color: #eee;
-  margin-left: 25px;
-}
-.logo-skills-mongo {
-  margin-left: 155px;
-}
-.logo-skills-mongo ~ p {
-  margin-left: 155px;
-  opacity: 0.2;
-  color: #eee;
-}
-.logo-skills-mongo + p {
-  margin-top: 20px;
-  border-left: 1.5px solid rgb(255, 51, 0) !important;
-  border-right: 1.5px solid rgb(255, 51, 0) !important;
+  opacity: 1;
+  color: #ffffff;
+text-shadow: 0 0 10px #ece9e6;
+  margin-left: 50px;
 }
 
+.mongoall {
+  margin: -230px 1014px 0px ;
+}
+
+.secondMongodb {
+  color: aliceblue !important;
+  margin-top: 40px;
+  margin-bottom: 38px;
+  border-left: 1px solid rgb(255, 51, 0) !important;
+  border-right: 1px solid rgb(255, 51, 0) !important;
+  opacity: 0.5;
+}
+.secondMongodb:hover {
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+.imgMongodb {
+  height: 80px;
+  width: 124px;
+  opacity: 0.5;
+}
+.imgMongodb:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.name-logo-skills-mongodb {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ece9e6;}
+
 .logo-skills-front + p {
-  margin-top: 20px;
+  margin-top: 30px;
   border-left: 1.5px solid rgb(255, 51, 0) !important;
   border-right: 1.5px solid rgb(255, 51, 0) !important;
 }
 
 .name-logo-skills-front {
   margin-top: 40px;
-  font-family: "Pontiac", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
 }
 
 .skills-front > :hover {
@@ -660,16 +680,53 @@ ul.social-icons {
 }
 /*------Title Skills-------*/
 
-.Title-Skills-informatique{
-  margin-top:280px;
-  background-color: rgba(255, 255, 255, 0.1);
-  opacity: 0.5;
-  border-radius: 60px;
+.Title-Skills-informatique {
+  margin: 9px 0px 0px 499px;
+  color: rgb(255, 51, 0);
+  font-size: 29px;
   font-family: "Fredericka the Great", cursive !important;
 }
+.Skills-Languages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.Skills-Languages li{
+  margin: 40px 430px 0px 180px;
+}
 
-.Title-Skills-informatique:hover{
-color: rgb(255, 51, 0);
-cursor: pointer;
+.Skills-Languages li h3{
+font-size: 28px;
+font-family: "Montserrat Subrayada", sans-serif;
+color: #ffffff;
+text-shadow: 0 0 10px #ece9e6;
+}
+
+.bar{
+  background: var(--mainBlue);
+  display: block;
+  border: 1px solid var(--mainVsBlue);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px grey;
 
 }
+.bar span {
+  float: left;
+  background: var(--lightBlue);
+  height: 2px;
+
+}
+
+.English{
+  width: 75%;
+
+}
+
+.Frensh{
+  width: 85%;
+}
+
+
