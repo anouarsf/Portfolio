@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl';
 
- class SkillsLinguistique extends Component {
+ class CompetencesLingui extends Component {
   render() {
     return (
 <Grid>
@@ -25,4 +25,4 @@ import { Grid, Cell } from 'react-mdl';
   }
 }
 
-export default SkillsLinguistique;
+export default CompetencesLingui;

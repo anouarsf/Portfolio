@@ -1,44 +1,32 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from "react-mdl";
-import Number from "./number";
+import React, { Component } from 'react'
 
-import Identity from "./identity" ;
-import Id from "./id" ;
-
-
- class Contact extends Component {
+export default class contact extends Component {
   render() {
     return (
-    
-      <div>
-      <Grid className='contact'>
-        
-        <Cell className='' col={1}>
-          <Number />
-        </Cell>
-
-        <Cell className='contact-right-col' col={11}>
-        <Id/>
-
-          <Identity
-            name='Sfayhi Anouar'
-            dayOfBirth={28}
-            monthOfBirth={5}
-            YearOfBirth={1987}
-            email='anouarsfayhi@gmail.com'
-            Adresse='Ennasr 2 , Ariana'
-            PhoneNumber='+216 55 417 444'
-          />
-        </Cell >
-  
-        
-
-      </Grid>
-    </div>
-
-
+<div id="form-main">
+  <div id="form-div">
+    <form className="form" id="form1">
+      
+      <p className="name">
+        <input name="name" type="text" className="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p className="email">
+        <input name="email" type="text" className="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" required />
+      </p>
+      
+      <p className="text">
+        <textarea name="text" className="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div className="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div className="ease"></div>
+      </div>
+    </form>
+  </div>
+  </div>
     )
   }
 }
-
-export default Contact;

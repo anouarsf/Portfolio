@@ -44,9 +44,9 @@ class Resume extends Component {
               loop={Infinity}
               wrapper='b'
               steps={[
-                "La seul facon de faire du bon Boulout,",
+                "La seul façon de faire du bon Boulout,",
                 1500,
-                " cest daimer ce que vous faites",
+                " cest d'aimer ce que vous faites",
                 1500
               ]}
             />

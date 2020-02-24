@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import logo from "./logo.png";
+import Resume from "./Resume/resume";
+import Skills from "./Skills/skills";
+import Aboutme from "./Aboutme/aboutme";
+import Contact from "./contact"
+
 
 
 class Landing extends Component {
@@ -82,6 +87,12 @@ _onMouseMove = (e) => {
                 </ul>
               </div>
           </Cell>
+          <Aboutme/>
+          <Resume/>
+         <Skills/>
+         <Contact/>
+
+
         </Grid>
       </div>
     );

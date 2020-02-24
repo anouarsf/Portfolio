@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Skills from "./skills";
-import SkillsLinguistique from "./skillsLinguistique"
+import CompetencesInfo from "./competencesInfo";
+import CompetencesLingui from "./competencesLingui"
 import html from "./html.png";
 import react from "./react.png";
 import redux from "./redux.png";
@@ -11,7 +11,7 @@ import node from "./node.png";
 import Bootstrap from "./bootstrap.png";
 import mongo from "./mongodb.jpg";
 
-class Projects extends Component {
+class Skills extends Component {
   render() {
     return (
       <Grid className='Skills'>
@@ -26,14 +26,14 @@ class Projects extends Component {
         </Cell>
       
 
-          <Skills skillsFront='HTML' imglogo={html} />
-          <Skills skillsFront='CSS' imglogo={css} />
-          <Skills skillsFront='JAVASCRIPT' imglogo={js} />
+          <CompetencesInfo skillsFront='HTML' imglogo={html} />
+          <CompetencesInfo skillsFront='CSS' imglogo={css} />
+          <CompetencesInfo skillsFront='JAVASCRIPT' imglogo={js} />
 
-          <Skills skillsFront='REACT' imglogo={react} />
-          <Skills skillsFront='REDUX' imglogo={redux} />
-          <Skills skillsFront='NODE' imglogo={node} />
-          <Skills skillsFront='BOOTSTRAP' imglogo={Bootstrap} />
+          <CompetencesInfo skillsFront='REACT' imglogo={react} />
+          <CompetencesInfo skillsFront='REDUX' imglogo={redux} />
+          <CompetencesInfo skillsFront='NODE' imglogo={node} />
+          <CompetencesInfo skillsFront='BOOTSTRAP' imglogo={Bootstrap} />
           <div className='mongoall'>
             <img src={mongo} className='imgMongodb' />
             <p className='secondMongodb'> | </p>
@@ -46,7 +46,7 @@ class Projects extends Component {
           <h3 className='Title-Skills-informatique'>Compétences Linguistiques</h3>
 
         </Cell>
-          < SkillsLinguistique/>
+          < CompetencesLingui/>
 
         </Cell>
 
@@ -57,4 +57,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Skills;

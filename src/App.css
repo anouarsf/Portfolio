@@ -19,6 +19,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
 }
 
 .avatar-img {
@@ -208,6 +209,7 @@ ul.social-icons {
 #timeline {
   display: flex;
   background: linear-gradient(to top, #080808, #21262f);
+  width: 100%;
 }
 
 #timeline:hover .tl-item {
@@ -346,13 +348,13 @@ ul.social-icons {
 
 /*--Experience-------*/
 .timeline-experience {
-  max-width: 500px;
+  width: 1340px;
   margin: 0 auto;
 }
 
 .timeline-experience-body {
   position: relative;
-  margin-left: -180px;
+  margin-left: 280px;
   opacity: 0.2px;
   padding: 5px 0;
   border-left: 2px solid #df9257;
@@ -454,151 +456,12 @@ ul.social-icons {
   }
 }
 
-:root {
-  --mainBlue: #032b53;
-  --lightBlue: #007bff;
-  --mainWhite: #f3f3f3;
-  --mainVsBlue: #1827fa;
-  --mainYellow: #ffc107;
-  --Yellow: #aa9107;
-
-  --mainOrange: #fd7e14;
-  --mainRed: #e75555;
-  --redLight: #ff1717;
-  --lightGreen: #18c03f;
-  --Green: #094914;
-  --vscGrey: #5d6b6b;
-  --darkVscode: #13191f;
-  --idVscode: #21282e;
-  --mainPurple: #fa00a7;
-}
-
-.contact-right-col {
-  border-left: 0.5px solid #424446;
-  border-right: 0.5px solid #424446;
-  font-family: "Roboto Mono", monospace !important;
-}
-
-.vscode-mainDark {
-  color: var(--mainVsBlue);
-}
-
-.vscode-lightGreen {
-  color: var(--lightGreen);
-}
-.vscode-Green {
-  color: var(--Green);
-}
-
-.vscode-vscGrey {
-  color: var(--vscGrey);
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Black Ops One', cursive !important; */
-  font-family: "Codystar", cursive;
-}
-
-.vscode-Yellow {
-  color: var(--Yellow);
-}
-
-.vscode-mainRed {
-  color: var(--mainRed);
-  /* font-family: 'Black Ops One', cursive; */
-  font-family: "Codystar", cursive;
-}
-
-.vscode-redLight {
-  color: var(--redLight);
-}
-
-.vscode-mainPurple {
-  color: var(--mainPurple);
-}
-
-.vscode-lightGreen {
-  color: var(--lightGreen);
-  font-family: "Codystar", cursive;
-  font-weight: bold;
-}
-
-.vscode-mainYellow {
-  color: var(--mainYellow);
-  font-weight: bold;
-}
-
-.vscode-mainVsBlue {
-  color: var(--mainVsBlue);
-  font-weight: bold;
-}
-
-.number-resume {
-  margin-left: 60px;
-  font-family: "Roboto Mono", monospace !important;
-  color: white !important;
-  margin-top: 19px;
-}
-
-.number-resume li {
-  color: var(--mainBlue) !important;
-  margin-left: 10px;
-  margin-right: 15px;
-}
-.identify {
-  margin-top: 20px;
-}
-
-.contact {
-  background-color: var(--darkVscode) !important;
-
-  color: var(--mainYellow);
-}
-
-/*-------Id---------*/
-
-.id {
-  display: flex;
-  border: 4px solid var(--idVscode);
-  background-color: var(--darkVscode);
-  height: 20px;
-  width: 110px;
-  margin: -15px 0px;
-}
-.id-img-contact {
-  height: 12px;
-  width: 12px;
-  margin-top: -5px;
-}
-
-.id:hover {
-  background-color: var(--idVscode);
-}
-.id-contact {
-  color: var(--vscGrey);
-  font-size: 10px;
-  align-items: center;
-  margin-top: 0px;
-  margin-left: 5px;
-}
-.id-contact:hover {
-  color: var(--mainWhite);
-}
-
-.id-contact-icon {
-  color: var(--vscGrey);
-  margin-right: 3px;
-  font-size: 10px;
-  margin-left: 3px;
-  margin-top: 0px;
-}
-.id-contact-icon:hover {
-  color: var(--mainWhite);
-}
-
 /*----Skills----*/
 
 .Skills {
   text-align: center;
   font-size: 28px;
+  width: 100%;
 }
 
 /*----------Skills Front-----------*/
@@ -609,9 +472,10 @@ ul.social-icons {
   flex-wrap: wrap;
   background-color: rgba(255, 255, 255, 0.1);
   opacity: 0.5;
-  font-family: "Fredericka the Great", cursive !important;
+
   padding: 15px 15px !important;
   border-radius: 60px;
+  /* width: 1340px; */
 }
 
 .skills-front {
@@ -626,13 +490,12 @@ ul.social-icons {
 
 .logo-skills-front ~ p {
   opacity: 1;
-  color: #ffffff;
-text-shadow: 0 0 10px #ece9e6;
+  color: #3aa2b7;
   margin-left: 50px;
 }
 
 .mongoall {
-  margin: -230px 1014px 0px ;
+  margin: -230px 1014px 0px;
 }
 
 .secondMongodb {
@@ -659,9 +522,9 @@ text-shadow: 0 0 10px #ece9e6;
 }
 
 .name-logo-skills-mongodb {
-  font-family: "Montserrat Subrayada", sans-serif;
-  color: #ffffff;
-  text-shadow: 0 0 10px #ece9e6;}
+  font-family: "Monoton", cursive !important;
+  color: #3aa2b7;
+}
 
 .logo-skills-front + p {
   margin-top: 30px;
@@ -671,7 +534,7 @@ text-shadow: 0 0 10px #ece9e6;
 
 .name-logo-skills-front {
   margin-top: 40px;
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Monoton", cursive !important;
 }
 
 .skills-front > :hover {
@@ -682,51 +545,285 @@ text-shadow: 0 0 10px #ece9e6;
 
 .Title-Skills-informatique {
   margin: 9px 0px 0px 499px;
-  color: rgb(255, 51, 0);
+  color: rgb(233, 116, 6);
   font-size: 29px;
-  font-family: "Fredericka the Great", cursive !important;
+  font-family: "Montserrat Subrayada", sans-serif !important;
 }
-.Skills-Languages{
+.Skills-Languages {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
-.Skills-Languages li{
+.Skills-Languages li {
   margin: 40px 430px 0px 180px;
 }
 
-.Skills-Languages li h3{
-font-size: 28px;
-font-family: "Montserrat Subrayada", sans-serif;
-color: #ffffff;
-text-shadow: 0 0 10px #ece9e6;
+.Skills-Languages li h3 {
+  font-size: 28px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #907b79;
+  text-shadow: 10px 0 5px royalblue;
 }
 
-.bar{
+.bar {
   background: var(--mainBlue);
   display: block;
   border: 1px solid var(--mainVsBlue);
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 0 10px grey;
-
 }
 .bar span {
   float: left;
   background: var(--lightBlue);
   height: 2px;
-
 }
 
-.English{
+.English {
   width: 75%;
+}
+
+.Frensh {
+  width: 85%;
+}
+
+/*----About me ---------*/
+:root {
+  --mainBlue: #032b53;
+  --lightBlue: #007bff;
+  --mainWhite: #f3f3f3;
+  --mainVsBlue: #1827fa;
+  --mainYellow: #ffc107;
+  --Yellow: #aa9107;
+
+  --mainOrange: rgb(233, 116, 6);
+  --mainRed: #e75555;
+  --redLight: #ff1717;
+  --lightGreen: #18c03f;
+  --Green: #094914;
+  --vscGrey: #5d6b6b;
+  --darkVscode: #13191f;
+  --idVscode: #21282e;
+  --mainPurple: #fa00a7;
+}
+
+.aboutMe {
+  color: rgb(241, 235, 239);
+  text-shadow: 0 0 8px rgb(212, 205, 205);
+  width: 100%;
+  font-family: "Montserrat Subrayada", sans-serif;
+  margin-top:0px !important;
+    height: 100%;
 
 }
 
-.Frensh{
-  width: 85%;
+.myself {
+  font-family: "Fredericka the Great", cursive !important;
+  margin: 0px 0px 240px 105px;
+}
+
+.titleAbout {
+  font-family: "Fredericka the Great", cursive !important;
+  font-size: 34px;
+  margin-top: 60px;
+  color: rgb(218, 208, 159);
+  text-shadow: 0 0 10px rgb(170, 162, 121);
+}
+
+.identify {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 45px;
+}
+.AboutmeThis {
+  color: rgb(204, 203, 204) !important;
+}
+
+.res-aboutMe {
+  color: rgb(218, 208, 159);
+  opacity: 0.1;
+}
+
+.res-aboutMe:hover {
+  opacity: 1;
+  text-shadow: 0 0 10px rgb(170, 162, 121);
+  cursor: pointer;
+}
+
+.description {
+  line-height: 35px;
+}
+/*-----Contact-----*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+  width:100%;
+	float:left;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+  margin-left: -260px;
+  margin-bottom:40px ;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+  background-repeat: no-repeat;
+
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  font-family: Helvetica, Arial, sans-serif !important;
+
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:rgb(194, 194, 195);
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: rgb(250, 71, 0) solid 2px;
+	cursor:pointer;
+	background-color: rgb(8, 0, 0);
+	color:rgb(250, 71, 0);
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: #240200;
+	color: rgb(255, 255, 255);
+}
+	
+.submit:hover {
+	color: rgb(233, 116, 6);
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: rgb(233, 116, 6);
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:rgb(233, 116, 6);
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 
 

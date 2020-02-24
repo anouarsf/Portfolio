@@ -12,7 +12,9 @@ class App extends Component {
       <div>
         <div className='demo-big-content'>
           <Layout>
-            <Header className='header-color' title='My Portfolio' scroll>
+      <Link to="/"  className='header-color' title='Sfayhi Anouar' scroll> 
+           <Header title="My Portfolio" >
+             
               <Navigation>
                 <Link to='/aboutme' className='navbar-header-hrz'>
                   {" "}
@@ -26,32 +28,16 @@ class App extends Component {
                   {" "}
                   Resume{" "}
                 </Link>
-                <Link to='/projects' className='navbar-header-hrz'>
+                <Link to='/skills' className='navbar-header-hrz'>
                   {" "}
-                  Projects{" "}
+                  Skills{" "}
                 </Link>
+              
+              
+
               </Navigation>
-            </Header>
-            <Drawer title='My Portfolio' className='header-color-vrt'>
-              <Navigation>
-                <Link to='/aboutme' className='navbar-header-vrt'>
-                  {" "}
-                  About me
-                </Link>
-                <Link to='/contact' className='navbar-header-vrt'>
-                  {" "}
-                  Contact{" "}
-                </Link>
-                <Link to='/resume' className='navbar-header-vrt'>
-                  {" "}
-                  Resume{" "}
-                </Link>
-                <Link to='/projects' className='navbar-header-vrt'>
-                  {" "}
-                  Projects{" "}
-                </Link>
-              </Navigation>
-            </Drawer>
+            </Header></Link>
+           
             <Content>
               <div className='page-content' />
 
